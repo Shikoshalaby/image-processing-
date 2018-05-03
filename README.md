@@ -1,2 +1,2 @@
-# image-processing-
-Object's numbers detector using edge detection techniques (ex:sobel filter)
+mostafa mohammed ismael mohammed shalaby
+mostafa mohammed abdallah abbas 
