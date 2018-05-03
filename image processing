@@ -1,0 +1,16 @@
+%% Object detection software Using edge detectors techniques (sobel mask)
+i=imread('hhh.jpg');
+r = rgb2gray (i);
+imshow (r); 
+%% applying an averaging filter to reduce noise and blur it 
+%z = [111; 111; 111]/9; 
+%y = imfilter(r,z); 
+%imshow (y);
+%%Applying a sobel filter so i can edge detect the cards on the photo 
+%  z = [1 0 -1; 2 0 -2; 1 0 -1];
+%  y = imfilter(r,z); 
+%  %imshow (y);
+%% A built in function for edging 
+
+ y=edge(r);
+ imshow (y);
